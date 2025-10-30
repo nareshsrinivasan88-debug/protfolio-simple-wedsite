@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boby {
+    padding: 50px;
+}
+
+.sec-one {
+    color:white;
+    background-color:black;
+    padding: 15px;
+}
+
+.sec-one__contact {
+    background-color:orangered;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.sec-one__name {
+    font-size: 60px;
+}
+
+.sec-one__role {
+    font-size: 30px;
+    margin-top: 11px;
+}
+
+.sec-two,
+.sec-three,
+.sec-four,
+.sec-five {
+    margin-top: 21px;
+
+
+}
+
+.sec-two__para,
+.sec-three__desc,
+.sec-four__desc,
+.sec-five__desc {
+    margin-top: 11px;
+}
+
+.sec-three {
+    background-color:#6462FD;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    height: 201px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.sec-four__desc li,
+.sec-three__desc li {
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.sec-four {
+    background-color: #FE7517;
+    border-radius: 10px;
+    padding: 15px;
+    height: 201px;
+    display: inline-block;
+    ;
+}
+
+.sec-five {
+    background-color:black;
+    color: white;
+    padding: 21px;
+
+}
+
+.sec-five__title {
+    color:skyblue;
+}
+
+.sec-five__title a {
+    text-decoration: none;
+}
+
+.sec-three__title {
+    color: white;
+}
+
+.sec-four__title {
+    color: white;
+}
+.contact-form{
+    margin: 30px;
+
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 15px;
+
+}
+.contact-form__input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+.contact-form__textarea{
+    padding: 15px;
+    border: none;
+    border: 1px black solid;
+}
+.contact-form__submit{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:10px ;
+    padding-top: 10px;
+    border: none;
+    background-color: orangered;
+    color: black;
+}
